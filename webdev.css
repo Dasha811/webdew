@@ -182,19 +182,19 @@ header {
   animation-iteration-count: infinite;
 }
 .slide1 {
-  background: url(ourComImg1.jpg);
+  background: url("ourComImg1.jpg");
   animation-delay: 7.5s;
 }
 .slide2 {
-  background: url(ourComImg2.jpg);
+  background: url("ourComImg2.jpg");
   animation-delay: 5s;
 }
 .slide3 {
-  background: url(ourComImg3.jpg);
+  background: url("implement.jpg");
   animation-delay: 2.5s;
 }
 .slide4 {
-  background: url(ourComImg2.jpg);
+  background: url("smartDesign.jpg");
   animation-delay: 0s;
 }
 
@@ -545,7 +545,7 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 @media (max-width: 769px) {
-  header {
+  .navigation {
     display: none;
   }
   .yourLifeContent {
@@ -589,8 +589,9 @@ nav {
     display: flex;
     flex-direction: column;
   }
-  .logo,
-  .info {
+
+  .info,
+  .logo {
     display: none;
   }
   footer {
