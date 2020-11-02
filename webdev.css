@@ -94,7 +94,6 @@ header {
 .networks a {
   padding: 20px;
 }
-
 .networks a:hover {
   cursor: pointer;
   transform: scale(1.5);
@@ -136,7 +135,6 @@ header {
 .sDcontent {
   padding: 0 150px;
 }
-
 .ourСommunity {
   background-color: #f5f6f7;
   display: flex;
@@ -197,7 +195,6 @@ header {
   background: url("smartDesign.jpg");
   animation-delay: 0s;
 }
-
 @keyframes slide {
   from {
     top: 0;
